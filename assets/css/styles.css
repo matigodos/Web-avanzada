@@ -66,3 +66,40 @@ footer {
 footer h2 {
     font-size: 1.5vh;
 }
+
+
+.h-container {
+
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    width:100vw;
+}
+
+
+.h-container>#click-container{
+
+background-color: black;
+display:flex;
+flex-direction:row;
+justify-content:space-around;
+align-items:center;
+width:fit-content;
+height:fit-content;
+margin-top:1vh;
+margin-right:.6vw;
+padding:1vh .7vw;
+border-radius:50px;
+border:solid 1px white;
+}
+
+.h-container>#click-container>svg{
+
+margin:auto .3vw;
+transition-duration: .3s;
+}
+
+.h-container>#click-container>svg:hover{
+
+cursor:pointer
+}
